@@ -1,0 +1,9 @@
+Flow of code
+
+Server : The server will host the network using the assigned host and port using which the client will connect to the server.
+The server will act as the sender and the user will have to input the filename of the file that he/she would like to transmit.
+The user must make sure that the file that needs to be sent is in the same directory as the "server.py" program.
+
+Client: The client program will prompt the user to enter the host address of the server while the port will already be assigned to the port variable.
+Once the client program has connected to the server it will ask the user for a filename to be used for the file that will be received from the server.
+Lastly the client program will receive the file and leave it in the same directory under the same filename set as the user.
